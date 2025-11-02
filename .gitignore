@@ -1,0 +1,12 @@
+#Folders from Resources to ignore
+3rdpartylicences/
+assets/
+cache/
+crashdump/
+log/
+qml/
+qt.conf
+screenshots/
+shounds/
+storeimages/
+Tibia.icns
