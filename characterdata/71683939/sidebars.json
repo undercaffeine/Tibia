@@ -1,0 +1,279 @@
+{
+    "analyticsSelectorOptions": {
+        "contentHeight": 0,
+        "contentMaximized": true
+    },
+    "battleListsOptions": {
+        "0": {
+            "battleListFilters": [
+                "hidePlayerSummons",
+                "hidePlayers"
+            ],
+            "battleListSortOrder": [
+                "byAgeAscending",
+                "byAgeAscending"
+            ],
+            "contentHeight": 84,
+            "contentMaximized": true,
+            "isPartyView": false,
+            "isPrimary": true,
+            "name": "",
+            "showFilters": false
+        },
+        "1": {
+            "battleListFilters": [
+                "hideMonsters",
+                "hideNPCs",
+                "hidePlayerSummons"
+            ],
+            "battleListSortOrder": [
+                "byAgeAscending",
+                "byAgeAscending"
+            ],
+            "contentHeight": 94,
+            "contentMaximized": true,
+            "isPartyView": false,
+            "isPrimary": false,
+            "name": "",
+            "showFilters": false
+        },
+        "253": {
+            "battleListFilters": [
+            ],
+            "battleListSortOrder": [
+                "byAgeAscending",
+                "byAgeAscending"
+            ],
+            "contentHeight": 38,
+            "contentMaximized": true,
+            "isPartyView": true,
+            "isPrimary": false,
+            "name": "",
+            "showFilters": false
+        }
+    },
+    "bestiaryTrackerWidgetOptions": {
+        "contentHeight": 207,
+        "contentMaximized": true,
+        "sortKey": "completion",
+        "sortOrder": "descending"
+    },
+    "bossTrackerWidgetOptions": {
+        "contentHeight": 0,
+        "contentMaximized": true,
+        "sortKey": "remainingCooldown"
+    },
+    "bosstiaryTrackerWidgetOptions": {
+        "contentHeight": 38,
+        "contentMaximized": true,
+        "sortKey": "name",
+        "sortOrder": "ascending"
+    },
+    "containersOptions": {
+        "0": {
+            "contentHeight": 84,
+            "contentMaximized": true
+        },
+        "1": {
+            "contentHeight": 242,
+            "contentMaximized": true
+        },
+        "3": {
+            "contentHeight": 84,
+            "contentMaximized": true
+        },
+        "4": {
+            "contentHeight": 65,
+            "contentMaximized": true
+        }
+    },
+    "damageInputAnalyserWidgetOptions": {
+        "contentHeight": 190,
+        "contentMaximized": true
+    },
+    "deoptSearchWidgetOptions": {
+        "contentHeight": 392,
+        "contentMaximized": true,
+        "showLockerOnly": false
+    },
+    "huntingSessionAnalyserWidgetOptions": {
+        "contentHeight": 301,
+        "contentMaximized": true
+    },
+    "imbuementTrackerWidgetOptions": {
+        "contentHeight": 200,
+        "contentMaximized": false,
+        "showAlmostGone": true,
+        "showAlmostNew": true,
+        "showEmptySlots": true,
+        "showUsed": true
+    },
+    "impactAnalyserWidgetOptions": {
+        "contentHeight": 373,
+        "contentMaximized": true
+    },
+    "lootAnalyserWidgetOptions": {
+        "contentHeight": 38,
+        "contentMaximized": true
+    },
+    "lootTrackerWidgetOptions": {
+        "contentHeight": 141,
+        "contentMaximized": true
+    },
+    "npcTradeOptions": {
+        "allowLargeTradesWithoutWarning": false,
+        "allowSellingEquippedItems": false,
+        "contentHeight": 391,
+        "contentMaximized": true,
+        "ignoreCapacityWhenBuying": false,
+        "purchaseShoppingBagWhenBuying": false,
+        "showNameFilter": true,
+        "sortFieldWhenBuying": "name",
+        "sortFieldWhenSelling": "amount"
+    },
+    "partyHuntAnalyserOptions": {
+        "contentHeight": 223,
+        "contentMaximized": false
+    },
+    "playerGuideWidgetOptions": {
+        "confirmedLevelSpecialPopups": [
+            9,
+            10,
+            20
+        ],
+        "contentHeight": 200,
+        "contentMaximized": true,
+        "pendingLevelSpecialPopups": [
+        ]
+    },
+    "preyWidgetOptions": {
+        "contentHeight": 86,
+        "contentMaximized": true
+    },
+    "questTrackerWidgetOptions": {
+        "contentHeight": 334,
+        "contentMaximized": false
+    },
+    "sidebarPanelsMangerOptions": {
+        "panelsOrder": [
+            "minimap",
+            "inventoryStatus",
+            "hitpointManabar",
+            "buttons"
+        ]
+    },
+    "sidebarPanelsOptions": {
+        "chaseModeEnabled": false,
+        "combatMode": 3,
+        "controlButtonsVisible": true,
+        "minimapZoomLevel": -100,
+        "minimizeInventory": false
+    },
+    "sidebarWidgetsMangerOptions": {
+        "leftSidebarCount": 1,
+        "openWidgetsOrderPerSidebar": [
+            [
+                {
+                    "instance": 0,
+                    "type": "battleList"
+                },
+                {
+                    "instance": 1,
+                    "type": "battleList"
+                },
+                {
+                    "instance": 0,
+                    "type": "container"
+                }
+            ],
+            [
+                {
+                    "type": "skills"
+                },
+                {
+                    "instance": 4,
+                    "type": "container"
+                },
+                {
+                    "instance": 3,
+                    "type": "container"
+                },
+                {
+                    "instance": 1,
+                    "type": "container"
+                }
+            ],
+            [
+                {
+                    "type": "huntingSessionAnalyser"
+                },
+                {
+                    "type": "partyHuntAnalyser"
+                },
+                {
+                    "type": "lootTracker"
+                },
+                {
+                    "type": "damageInputAnalyser"
+                },
+                {
+                    "type": "bestiaryTracker"
+                },
+                {
+                    "type": "vip"
+                }
+            ]
+        ]
+    },
+    "skillsWidgetOptions": {
+        "contentHeight": 326,
+        "contentMaximized": true,
+        "defenceStatsVisible": true,
+        "invisibleProgressBars": [
+            "distancefighting",
+            "clubfighting",
+            "swordfighting",
+            "axefighting",
+            "fistfighting"
+        ],
+        "miscStatsVisible": true,
+        "offenceStatsVisible": true
+    },
+    "spellListWidgetOptions": {
+        "contentHeight": 246,
+        "contentMaximized": true,
+        "showAttackSpellGroup": true,
+        "showDruidSpells": true,
+        "showFreeSpells": true,
+        "showHealingSpellGroup": true,
+        "showKnightSpells": true,
+        "showMonkSpells": true,
+        "showOnlyCurrentLevel": false,
+        "showOnlyCurrentVocation": false,
+        "showPaladinSpells": true,
+        "showPremiumOnlySpells": true,
+        "showSorcererSpells": true,
+        "showSupportSpellGroup": true,
+        "showUnkownSpells": false
+    },
+    "supplyAnalyserWidgetOptions": {
+        "contentHeight": 0,
+        "contentMaximized": true
+    },
+    "unjustifiedPointsOptions": {
+        "contentHeight": 0,
+        "contentMaximized": true
+    },
+    "vipWidgetOptions": {
+        "contentHeight": 124,
+        "contentMaximized": true,
+        "hideOfflineVips": true,
+        "showGrouped": false,
+        "vipSortOrder": [
+        ]
+    },
+    "xpAnalyserWidgetOptions": {
+        "contentHeight": 0,
+        "contentMaximized": true
+    }
+}
