@@ -78,6 +78,10 @@
             "contentHeight": 242,
             "contentMaximized": true
         },
+        "2": {
+            "contentHeight": 121,
+            "contentMaximized": true
+        },
         "3": {
             "contentHeight": 84,
             "contentMaximized": true
@@ -183,6 +187,10 @@
                 },
                 {
                     "instance": 0,
+                    "type": "container"
+                },
+                {
+                    "instance": 2,
                     "type": "container"
                 }
             ],

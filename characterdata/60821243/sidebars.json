@@ -8,6 +8,7 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
+                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 251,
@@ -21,6 +22,7 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
+                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 38,
@@ -51,10 +53,6 @@
     "containersOptions": {
         "0": {
             "contentHeight": 48,
-            "contentMaximized": true
-        },
-        "1": {
-            "contentHeight": 330,
             "contentMaximized": true
         }
     },
@@ -155,10 +153,6 @@
                 },
                 {
                     "type": "questTracker"
-                },
-                {
-                    "instance": 1,
-                    "type": "container"
                 }
             ]
         ]

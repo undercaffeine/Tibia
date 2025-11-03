@@ -9,6 +9,7 @@
                 "hidePlayers"
             ],
             "battleListSortOrder": [
+                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 170,
@@ -22,6 +23,7 @@
             "battleListFilters": [
             ],
             "battleListSortOrder": [
+                "byAgeAscending",
                 "byAgeAscending"
             ],
             "contentHeight": 0,
@@ -50,10 +52,6 @@
         "sortOrder": "ascending"
     },
     "containersOptions": {
-        "0": {
-            "contentHeight": 195,
-            "contentMaximized": true
-        },
         "1": {
             "contentHeight": 195,
             "contentMaximized": true
@@ -114,7 +112,8 @@
         "contentMaximized": true,
         "pendingLevelSpecialPopups": [
             9,
-            10
+            10,
+            20
         ]
     },
     "preyWidgetOptions": {
@@ -130,23 +129,19 @@
         ]
     },
     "sidebarPanelsOptions": {
-        "chaseModeEnabled": false,
+        "chaseModeEnabled": true,
         "combatMode": 3,
         "controlButtonsVisible": true,
         "minimapZoomLevel": 0,
         "minimizeInventory": false
     },
     "sidebarWidgetsMangerOptions": {
-        "leftSidebarCount": 0,
+        "leftSidebarCount": 1,
         "openWidgetsOrderPerSidebar": [
             [
                 {
                     "instance": 0,
                     "type": "battleList"
-                },
-                {
-                    "instance": 0,
-                    "type": "container"
                 },
                 {
                     "instance": 1,
@@ -156,7 +151,12 @@
             [
                 {
                     "type": "questTracker"
+                },
+                {
+                    "type": "vip"
                 }
+            ],
+            [
             ]
         ]
     },
@@ -195,9 +195,9 @@
         "contentMaximized": true
     },
     "vipWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 200,
         "contentMaximized": true,
-        "hideOfflineVips": false,
+        "hideOfflineVips": true,
         "showGrouped": false,
         "vipSortOrder": [
         ]
