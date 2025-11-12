@@ -30,7 +30,7 @@
                 "byAgeAscending",
                 "byAgeAscending"
             ],
-            "contentHeight": 94,
+            "contentHeight": 89,
             "contentMaximized": true,
             "isPartyView": false,
             "isPrimary": false,
@@ -53,7 +53,7 @@
         }
     },
     "bestiaryTrackerWidgetOptions": {
-        "contentHeight": 207,
+        "contentHeight": 183,
         "contentMaximized": true,
         "sortKey": "completion",
         "sortOrder": "descending"
@@ -71,29 +71,25 @@
     },
     "containersOptions": {
         "0": {
-            "contentHeight": 84,
+            "contentHeight": 158,
             "contentMaximized": true
         },
         "1": {
-            "contentHeight": 242,
-            "contentMaximized": true
-        },
-        "2": {
-            "contentHeight": 121,
+            "contentHeight": 232,
             "contentMaximized": true
         },
         "3": {
-            "contentHeight": 84,
+            "contentHeight": 121,
             "contentMaximized": true
         },
         "4": {
-            "contentHeight": 65,
+            "contentHeight": 77,
             "contentMaximized": true
         }
     },
     "damageInputAnalyserWidgetOptions": {
-        "contentHeight": 190,
-        "contentMaximized": true
+        "contentHeight": 221,
+        "contentMaximized": false
     },
     "deoptSearchWidgetOptions": {
         "contentHeight": 392,
@@ -113,8 +109,8 @@
         "showUsed": true
     },
     "impactAnalyserWidgetOptions": {
-        "contentHeight": 373,
-        "contentMaximized": true
+        "contentHeight": 235,
+        "contentMaximized": false
     },
     "lootAnalyserWidgetOptions": {
         "contentHeight": 38,
@@ -137,7 +133,7 @@
     },
     "partyHuntAnalyserOptions": {
         "contentHeight": 223,
-        "contentMaximized": false
+        "contentMaximized": true
     },
     "playerGuideWidgetOptions": {
         "confirmedLevelSpecialPopups": [
@@ -190,7 +186,7 @@
                     "type": "container"
                 },
                 {
-                    "instance": 2,
+                    "instance": 3,
                     "type": "container"
                 }
             ],
@@ -203,10 +199,6 @@
                     "type": "container"
                 },
                 {
-                    "instance": 3,
-                    "type": "container"
-                },
-                {
                     "instance": 1,
                     "type": "container"
                 }
@@ -214,6 +206,9 @@
             [
                 {
                     "type": "huntingSessionAnalyser"
+                },
+                {
+                    "type": "vip"
                 },
                 {
                     "type": "partyHuntAnalyser"
@@ -226,9 +221,6 @@
                 },
                 {
                     "type": "bestiaryTracker"
-                },
-                {
-                    "type": "vip"
                 }
             ]
         ]
@@ -273,7 +265,7 @@
         "contentMaximized": true
     },
     "vipWidgetOptions": {
-        "contentHeight": 124,
+        "contentHeight": 116,
         "contentMaximized": true,
         "hideOfflineVips": true,
         "showGrouped": false,

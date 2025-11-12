@@ -52,8 +52,16 @@
         "sortOrder": "ascending"
     },
     "containersOptions": {
+        "0": {
+            "contentHeight": 158,
+            "contentMaximized": true
+        },
         "1": {
             "contentHeight": 195,
+            "contentMaximized": true
+        },
+        "2": {
+            "contentHeight": 108,
             "contentMaximized": true
         }
     },
@@ -146,6 +154,10 @@
                 {
                     "instance": 1,
                     "type": "container"
+                },
+                {
+                    "instance": 0,
+                    "type": "container"
                 }
             ],
             [
@@ -154,6 +166,13 @@
                 },
                 {
                     "type": "vip"
+                },
+                {
+                    "instance": 2,
+                    "type": "container"
+                },
+                {
+                    "type": "skills"
                 }
             ],
             [
@@ -161,7 +180,7 @@
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 200,
         "contentMaximized": true,
         "defenceStatsVisible": true,
         "invisibleProgressBars": [

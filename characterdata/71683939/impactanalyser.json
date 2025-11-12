@@ -6,7 +6,7 @@
     "desiredHpsGraphVisible": true,
     "dpsGaugeTargetValue": 0.1,
     "hpsGaugeTargetValue": 0.1,
-    "maxDamageImpact": 1171,
+    "maxDamageImpact": 1424,
     "maxHealingImpact": 983,
     "showSessionValues": false
 }

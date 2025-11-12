@@ -161,12 +161,15 @@
                 },
                 {
                     "type": "questTracker"
+                },
+                {
+                    "type": "skills"
                 }
             ]
         ]
     },
     "skillsWidgetOptions": {
-        "contentHeight": 0,
+        "contentHeight": 200,
         "contentMaximized": true,
         "defenceStatsVisible": true,
         "invisibleProgressBars": [
